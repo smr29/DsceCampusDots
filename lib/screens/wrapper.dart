@@ -1,9 +1,9 @@
 // ignore_for_file: avoid_print
 
 import "package:flutter/material.dart";
-import "package:flutter_application_1/models/current_user.dart";
-import "package:flutter_application_1/screens/authenticate/authenticate.dart";
-import "package:flutter_application_1/screens/home/home.dart";
+import "package:campus_dots/models/current_user.dart";
+import "package:campus_dots/screens/authenticate/authenticate.dart";
+import "package:campus_dots/screens/home/home.dart";
 import "package:provider/provider.dart";
 
 class Wrapper extends StatelessWidget {

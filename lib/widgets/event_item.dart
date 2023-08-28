@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/services/event.dart';
+import 'package:campus_dots/services/event.dart';
 
 class EventItem extends StatelessWidget {
   final Event event;

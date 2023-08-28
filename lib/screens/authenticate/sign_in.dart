@@ -1,9 +1,9 @@
 // ignore_for_file: avoid_print
 
 import "package:flutter/material.dart";
-import "package:flutter_application_1/services/auth.dart";
-import 'package:flutter_application_1/shared/constants.dart';
-import "package:flutter_application_1/shared/loading.dart";
+import "package:campus_dots/services/auth.dart";
+import 'package:campus_dots/shared/constants.dart';
+import "package:campus_dots/shared/loading.dart";
 
 class SignIn extends StatefulWidget {
   final Function toggleView;

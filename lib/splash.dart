@@ -1,7 +1,7 @@
 // ignore_for_file: no_logic_in_create_state
 
 import "package:flutter/material.dart";
-import "package:flutter_application_1/screens/wrapper.dart";
+import "package:campus_dots/screens/wrapper.dart";
 
 class Splash extends StatefulWidget {
   const Splash({super.key});

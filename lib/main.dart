@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/models/current_user.dart';
+import 'package:campus_dots/models/current_user.dart';
 // ignore: unused_import
-import 'package:flutter_application_1/screens/wrapper.dart';
+import 'package:campus_dots/screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_application_1/services/auth.dart';
+import 'package:campus_dots/services/auth.dart';
 // ignore: unused_import
-import 'package:flutter_application_1/splash.dart';
+import 'package:campus_dots/splash.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
 

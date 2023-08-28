@@ -1,14 +1,14 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/services/auth.dart';
+import 'package:campus_dots/services/auth.dart';
 import 'dart:collection';
-import 'package:flutter_application_1/screens/add_event.dart';
+import 'package:campus_dots/screens/add_event.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_application_1/services/event.dart';
-import 'package:flutter_application_1/widgets/event_item.dart';
+import 'package:campus_dots/services/event.dart';
+import 'package:campus_dots/widgets/event_item.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:flutter_application_1/screens/edit_event.dart';
+import 'package:campus_dots/screens/edit_event.dart';
 
 // ignore: unused_import
 //import 'package:xml/xml_events.dart';

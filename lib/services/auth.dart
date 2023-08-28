@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_application_1/models/current_user.dart';
+import 'package:campus_dots/models/current_user.dart';
 // ignore: unused_import
-import 'package:flutter_application_1/services/event.dart';
+import 'package:campus_dots/services/event.dart';
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
