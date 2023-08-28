@@ -29,7 +29,7 @@ class _SignInState extends State<SignIn> {
     return loading
         ? const Loading()
         : Scaffold(
-            backgroundColor: Colors.grey[400],
+            //backgroundColor: Colors.grey[400],
             appBar: AppBar(
               backgroundColor: Colors.grey[900],
               elevation: 0.0,
@@ -44,9 +44,14 @@ class _SignInState extends State<SignIn> {
                 )
               ],
             ),
-            body: Container(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 20.0, horizontal: 50.0),
+            body: DecoratedBox(
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage("assets/login.png"), fit: BoxFit.cover),
+              ),
+              // body: Container(
+              //   padding:
+              //       const EdgeInsets.symmetric(vertical: 20.0, horizontal: 50.0),
               child: Form(
                 key: _formKey,
                 child: Column(
